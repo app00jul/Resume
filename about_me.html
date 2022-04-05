@@ -22,11 +22,22 @@
                 <a href="index.html" class="nav_bar" id="logo"> Minh Quan Vu </a>
     
                 <ul>
-                    <li><a href="work.html" class="nav_bar"> Works </a></li>
+                    <li><div class="dropdown">
+                            <button onclick="myFunction()" class="dropbtn">Works</button>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="work_01:tower_of_hanoi.html">Tower of Hanoi</a>
+                                <a href="work_02:goldbach">Goldbach's Conjecture</a>
+                                <a href="work_03:keylogger">Keylogger</a>
+                                <a href="work_04:caesar">Caesar Encryption</a>
+                            </div>
+                        </div>
+                    </li>
                     <li><a href="about_me.html" class="nav_bar_current"> About me </a></li>
                     <li><a href="contact.html" class="nav_bar"> Contact </a></li>
                 </ul>
             </nav>
         </div>
     </body>
+    
+    <script type="text/javascript" src="navbar.js"></script>
 </html>
